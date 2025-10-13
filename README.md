@@ -21,31 +21,36 @@ This project replaces traditional filter-based search with a GPT-like chat inter
 ---
 
 ## 📂 Project Structure
-
 The project is organized into a modular structure for clarity and scalability.
+
 '''
+
+
 real-estate-chatbot/
 │
 ├── data/
-│   ├── project.csv
-│   ├── ProjectAddress.csv            
-│   ├── ProjectConfiguration.csv      
-│   └── ProjectConfigurationVariant.csv 
+│   ├── project.csv                   # Core project details like name and status.
+│   ├── ProjectAddress.csv            # Address information for each project.
+│   ├── ProjectConfiguration.csv      # Details on property configurations (e.g., BHK).
+│   └── ProjectConfigurationVariant.csv # Specific variants with price, area, etc.
 │
 ├── src/
-│   ├── init.py                   
-│   ├── config.py                    
-│   ├── data_loader.py              
-│   ├── query_parser.py              
-│   ├── response_generator.py       
-│   ├── search_engine.py             
-│   └── utils.py                      
+│   ├── init.py                   # Makes the 'src' directory a Python package.
+│   ├── config.py                     # Manages file paths and project constants.
+│   ├── data_loader.py                # Module for loading and merging all CSV data.
+│   ├── query_parser.py               # Handles natural language understanding and filter extraction.
+│   ├── response_generator.py         # Creates the summary and property cards for the UI.
+│   ├── search_engine.py              # Contains the core logic for filtering properties.
+│   └── utils.py                      # Utility functions (e.g., price formatting).
 │
-├── app.py                            
+├── app.py                            # The main Streamlit application file to be executed.
 │
-├── requirements.txt                 
+├── requirements.txt                  # A list of all required Python packages for the project.
 │
-└── README.md  
+└── README.md                         # This file.
+
+
+
 '''                      
 ---
 
