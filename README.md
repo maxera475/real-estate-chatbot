@@ -23,29 +23,30 @@ This project replaces traditional filter-based search with a GPT-like chat inter
 ## 📂 Project Structure
 
 The project is organized into a modular structure for clarity and scalability.
-
+'''
 real-estate-chatbot/
 │
 ├── data/
-│   ├── project.csv                   # Core project details like name and status.
-│   ├── ProjectAddress.csv            # Address information for each project.
-│   ├── ProjectConfiguration.csv      # Details on property configurations (e.g., BHK).
-│   └── ProjectConfigurationVariant.csv # Specific variants with price, area, etc.
+│   ├── project.csv
+│   ├── ProjectAddress.csv            
+│   ├── ProjectConfiguration.csv      
+│   └── ProjectConfigurationVariant.csv 
 │
 ├── src/
-│   ├── init.py                   # Makes the 'src' directory a Python package.
-│   ├── config.py                     # Manages file paths and project constants.
-│   ├── data_loader.py                # Module for loading and merging all CSV data.
-│   ├── query_parser.py               # Handles natural language understanding and filter extraction.
-│   ├── response_generator.py         # Creates the summary and property cards for the UI.
-│   ├── search_engine.py              # Contains the core logic for filtering properties.
-│   └── utils.py                      # Utility functions (e.g., price formatting).
+│   ├── init.py                   
+│   ├── config.py                    
+│   ├── data_loader.py              
+│   ├── query_parser.py              
+│   ├── response_generator.py       
+│   ├── search_engine.py             
+│   └── utils.py                      
 │
-├── app.py                            # The main Streamlit application file to be executed.
+├── app.py                            
 │
-├── requirements.txt                  # A list of all required Python packages for the project.
+├── requirements.txt                 
 │
-└── README.md                         # This file.
+└── README.md  
+'''                      
 ---
 
 ## 🛠️ Setup and Installation
@@ -61,7 +62,7 @@ Follow these steps to set up the project on your local machine.
 
 1.  **Clone the Repository:**
     ```sh
-    git clone [https://github.com/your-username/real-estate-chatbot.git](https://github.com/maxera475/real_estate_chatbot.git)
+    git clone [https://github.com/maxera475/real_estate_chatbot.git]
     cd real-estate-chatbot
     ```
 
