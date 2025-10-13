@@ -23,7 +23,7 @@ This project replaces traditional filter-based search with a GPT-like chat inter
 ## 📂 Project Structure
 The project is organized into a modular structure for clarity and scalability.
 
-'''
+```
 
 
 real-estate-chatbot/
@@ -51,7 +51,7 @@ real-estate-chatbot/
 
 
 
-'''                      
+```                    
 ---
 
 ## 🛠️ Setup and Installation
